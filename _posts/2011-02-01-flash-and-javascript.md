@@ -3,11 +3,11 @@ layout: post
 title: Four misconceptions Flash developers have about javascript
 ---
 
-The [creativecodingpodcast](http://creativecodingpodcast.com/?p=1) is a new series released by [Seb Lee-Delisle](http://twitter.com/#!/seb_ly) and [Iain Lobb](https://twitter.com/#!/iainlobb). I really enjoyed the first episode, but did disagree with a few points. Here’s the expanded version.
+The [creativecodingpodcast](http://creativecodingpodcast.com/?p=1) is a new series released by [Seb Lee-Delisle](http://twitter.com/#!/seb_ly) and [Iain Lobb](https://twitter.com/#!/iainlobb). I really enjoyed the first episode, but did disagree with a few points. Here's the expanded version.
 
 ### You can't write OO code without classes
 
-If you insist on thinking of everything as an object, then [javascript lets you do this](http://eloquentjavascript.net/chapter8.html). Prototypal and class-based inheritance clearly affect how object-orientated concepts are implemented, but doesn’t mean either is more "pure" than the other.
+If you insist on thinking of everything as an object, then [javascript lets you do this](http://eloquentjavascript.net/chapter8.html). Prototypal and class-based inheritance clearly affect how object-orientated concepts are implemented, but doesn't mean either is more "pure" than the other.
 
 More importantly, OO isn't the only way to think about complex structures. Functional programming is becoming increasingly important and [javascript allows you to implement some of these concepts](http://eloquentjavascript.net/chapter6.html), which are often more suited to asynchronous environments.
 
@@ -21,7 +21,7 @@ There are many languages (e.g. ruby, python, scheme) that use dynamic-typing, wh
 
 ### Where's my IDE?
 
-Language issues aside, the most common complaint is that there aren’t any good IDEs. The main reason for this is again due to dynamic typing because IDEs aren't able to do a lot of the things that make them useful without a static type system. 
+Language issues aside, the most common complaint is that there aren't any good IDEs. The main reason for this is again due to dynamic typing because IDEs aren't able to do a lot of the things that make them useful without a static type system. 
 
 The other reason is dynamic typing offers the advantage of being more concise - making a full blown IDE unnecessary. Simple text-editors are generally favoured - my choice is [vim](http://code.google.com/p/macvim/), [textmate](http://macromates.com/) is also good.
 
