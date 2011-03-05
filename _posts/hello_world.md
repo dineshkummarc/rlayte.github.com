@@ -3,6 +3,7 @@ layout: post
 title: Hello world
 ---
 
-h1. {{ page.title }}
+{{ page.title }}
+================
 
 Test post
