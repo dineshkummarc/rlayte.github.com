@@ -1,26 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+---
+layout: default
+title: codetonowhere
+---
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>index</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Richard Layte">
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="eno.js" type="text/javascript" charset="utf-8"></script>
-</head>
-<body>
-
-	<canvas id="10010" width="500" height="400"></canvas>
-	<ul id="artists">
-		<li><a href="eno" class="11">Eno</a></li>
-		<li><a href="reich" class="12">Reich</a></li>
-		<li><a href="panda" class="4">Panda Bear</a></li>
-	</ul>
-	<div id="samples">
-	</div>
-
-</body>
-</html>
+<div id="home">
+    <h1>Blog Posts</h1>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
