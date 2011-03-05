@@ -15,7 +15,7 @@ More importantly, OO isn't the only way to think about complex structures. Funct
 
 As an ex/occasional Flash developer I completely understand why this idea has such a hold in the community. Adobe pushed static-typing pretty hard in its move to convert everyone from AS2 to AS3. I at least, gained the impression that static-typing was a progression rather than one possible way of doing things.
 
-Debugging is more difficult in dynamically typed languages, but not as difficult as it is generally made out to be. Firebug and Chrome’s developer tools allow you to set break points and step through code as you can in Eclipse. Unit tests are more important and with sufficient coverage can make compile time error checking unnecessary.
+Debugging is more difficult in dynamically typed languages, but not as difficult as it is generally made out to be. Firebug and Chrome's developer tools allow you to set break points and step through code as you can in Eclipse. Unit tests are more important and with sufficient coverage can make compile time error checking unnecessary.
 
 There are many languages (e.g. ruby, python, scheme) that use dynamic-typing, which are being used by a lot of smart people. I think both have their strengths and weaknesses, but it's important to realise that static-typing isn't always the best option.
 
