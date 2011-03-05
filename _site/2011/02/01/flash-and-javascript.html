@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Four misconceptions Flash developers have about javascript</title>
+
+        <!-- Homepage CSS -->
+        <link rel="stylesheet" href="/css/master.css" type="text/css" media="screen, projection" />
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <div id="header">
+                <h1><a href="/">codetonowhere</a></h1>
+                <span class="strapline">pointless ramblings.</span>
+            </div>
+
+            <div id="primary">
+                <div class="post">
+    <h2>Four misconceptions Flash developers have about javascript</h2>
+    <p class="pub_date">01 Feb 2011</p>
+    <p class="clear">---</p>
+
+    <p>The <a href='http://creativecodingpodcast.com/?p=1'>creativecodingpodcast</a> is a new series released by <a href='http://twitter.com/#!/seb_ly'>Seb Lee-Delisle</a> and <a href='https://twitter.com/#!/iainlobb'>Iain Lobb</a>. I really enjoyed the first episode, but did disagree with a few points. Here’s the expanded version.</p>
+
+<h3 id='you_cant_write_oo_code_without_classes'>You can&#8217;t write OO code without classes</h3>
+
+<p>If you insist on thinking of everything as an object, then <a href='http://eloquentjavascript.net/chapter8.html'>javascript lets you do this</a>. Prototypal and class-based inheritance clearly affect how object-orientated concepts are implemented, but doesn’t mean either is more &#8220;pure&#8221; than the other.</p>
+
+<p>More importantly, OO isn&#8217;t the only way to think about complex structures. Functional programming is becoming increasingly important and <a href='http://eloquentjavascript.net/chapter6.html'>javascript allows you to implement some of these concepts</a>, which are often more suited to asynchronous environments.</p>
+
+<h3 id='dynamic_typing_is_evil'>Dynamic typing is evil</h3>
+
+<p>As an ex/occasional Flash developer I completely understand why this idea has such a hold in the community. Adobe pushed static-typing pretty hard in its move to convert everyone from AS2 to AS3. I at least, gained the impression that static-typing was a progression rather than one possible way of doing things.</p>
+
+<p>Debugging is more difficult in dynamically typed languages, but not as difficult as it is generally made out to be. Firebug and Chrome’s developer tools allow you to set break points and step through code as you can in Eclipse. Unit tests are more important and with sufficient coverage can make compile time error checking unnecessary.</p>
+
+<p>There are many languages (e.g. ruby, python, scheme) that use dynamic-typing, which are being used by a lot of smart people. I think both have their strengths and weaknesses, but it&#8217;s important to realise that static-typing isn&#8217;t always the best option.</p>
+
+<h3 id='wheres_my_ide'>Where&#8217;s my IDE?</h3>
+
+<p>Language issues aside, the most common complaint is that there aren’t any good IDEs. The main reason for this is again due to dynamic typing because IDEs aren&#8217;t able to do a lot of the things that make them useful without a static type system.</p>
+
+<p>The other reason is dynamic typing offers the advantage of being more concise - making a full blown IDE unnecessary. Simple text-editors are generally favoured - my choice is <a href='http://code.google.com/p/macvim/'>vim</a>, <a href='http://macromates.com/'>textmate</a> is also good.</p>
+
+<h3 id='javascript_is_the_biggest_threat_to_flash'>Javascript is the biggest threat to Flash</h3>
+
+<p>Javascript has quite rightly replaced Flash for a lot of things that it should never have been used for in the first place - carousels, accordions, and even <a href='http://thefwa.com/'>entire fucking websites</a>.</p>
+
+<p>There is still a need for rich interactive experiences on the web, such as games, which Flash undeniably handles better than javascript. But in this area Flash is in direct competition with native applications, not javascript.</p>
+</div>
+
+            </div>
+
+            <div id="sidebar">
+                <p>I'm Richard Layte. I <a href="https://github.com/rlayte">write code</a>, listen to <a href="http://www.last.fm/user/rlayte">music</a>, and work for <a href="http://www.lbi.co.uk/">LBi</a>.</p>
+
+                <h3><a href="http://twitter.com/#!/codeToNowhere">Tweets</a></h3>
+                <ul class="tweets">
+                </ul>
+            </div>
+
+            <div id="footer">
+                <p>Richard Layte, 2011. No rights reserved.</p>
+            </div>
+
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="/javascript/twitter_feed.js"></script>
+        <script src="http://twitter.com/statuses/user_timeline/codetonowhere.json?callback=twitter_callback&count=4"></script>
+    </body>
+</html>
