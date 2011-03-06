@@ -1,0 +1,38 @@
+body{
+	font: 1em/1.3em Helvetica, sans-serif;
+	color: #ddd;
+	background-color: #231f20;
+	text-shadow: 0px 1px 1px #1b1b1b;
+	filter: dropshadow(color=#1b1b1b, offx=0, offy=1);
+}
+#wrapper{
+	width: 800px;
+}
+.binary{
+	font-family: monospace;
+}
+#instructions{
+	float: right;
+	font-size: 0.6em;
+}
+#artists{
+	float: left;
+}
+h1{
+	font-size: 3em;
+	border-bottom: 1px dotted #666;
+	padding-bottom: 0.5em;
+}
+a{
+	color: #ddd;
+	text-decoration: none;
+}
+ul{
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+	margin-right: 1em;
+	float: left;
+}
