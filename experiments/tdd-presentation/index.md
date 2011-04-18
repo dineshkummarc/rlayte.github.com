@@ -19,6 +19,8 @@ Implement patterns, DRY, optimisation, etc.
 
 ## Why is this a good approach
 
+Hopefully I'll be able to explain some of the more advanced ideas as I go through this section.
+
 ### Testing is not the objective
 + Tests are a side benefit
 + TDD is a process for designing applications
