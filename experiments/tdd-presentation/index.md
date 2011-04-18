@@ -6,16 +6,16 @@ Test-driven development is a methodology that enforces writing tests before writ
 
 ### Red, green, refactor
 
-1. Red
+1. **Red**
 Write a failing test, that correctly excercises the code under test
 
-2. Green
+2. **Green**
 Write the simplest solution to get the test passing
 
-3. Refactor
+3. **Refactor**
 Implement patterns, DRY, optimisation, etc.
 
-4. Repeat
+4. **Repeat**
 
 ## Why is this a good approach
 
