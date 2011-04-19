@@ -41,6 +41,7 @@ Hopefully I'll be able to explain some of the more advanced ideas as I go throug
 
 ### Emergent design
 + Requirements always change, designing upfront doesn't work
++ Write objects from the outside-in, producing more usable APIs
 + Mock objects as a way to 'discover' interfaces
 + Results in lean code
 
