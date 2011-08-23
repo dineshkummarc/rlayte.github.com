@@ -1,0 +1,74 @@
+body {
+    font-family: 'Droid Sans', arial, serif;
+    width: 600px;
+    margin: 10px auto;
+}
+
+h1 { 
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+h2, h4, h3 {
+    clear: left;
+    letter-spacing: -1px;
+}
+
+a {
+    background-color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+a:hover {
+    background-color: #E1EFF2;
+}
+
+ul.key,
+ul.skills {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+ul.key {
+    font-size: 0.7em;
+    margin: 20px 0 0 10px;
+}
+
+ul.skills li,
+ul.key li {
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 0 5px 5px 0;
+    background-color: #eee;
+
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul li.intermediate {
+    background-color: #9CCCE6;
+}
+
+ul li.expert {
+    background-color: #9CE69C;
+}
+
+ul li.learning {
+    background-color: #E8C997;
+}
+
+.skills,
+.experience {
+    float: left;
+}
+
+.skills h4 {
+    float: left;
+}
+
+
